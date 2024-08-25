@@ -2,6 +2,4 @@
 
 namespace Bauthor\Schwooops;
 
-class Schwooops 
-{
-}
+class Schwooops {}
