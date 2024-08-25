@@ -1,3 +1,3 @@
 <?php
 
-rex_config::removeNamespace("schwooops");
+rex_config::removeNamespace('schwooops');
