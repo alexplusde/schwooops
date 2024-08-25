@@ -1,3 +1,3 @@
 <?php
 
-/* Todo: Wildcard aktualisieren */
+include_once (__DIR__ . '/install.php');
