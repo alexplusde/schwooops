@@ -10,4 +10,4 @@ function checkPageStatus() {
         });
 }
 
-setInterval(checkPageStatus, 60000); // Überprüfe alle 60 Sekunden
+setInterval(checkPageStatus, 15000); // Überprüfe alle 15 Sekunden

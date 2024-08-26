@@ -14,10 +14,26 @@ requires:
 
 
 page:
-    title: translate:blaupause_title
+    title: translate:schwooops_title
+    icon: rex-icon fa-bug
     prio: 100
-    icon: rex-icon fa-gear
     hidden: true
+
+
+pages:
+    system/schwooops:
+        title: translate:schwooops_title
+        icon: rex-icon fa-bug
+    maintenance/schwooops:
+        title: translate:schwooops_title
+        icon: rex-icon fa-bug
+
+default_config:
+    name: ''
+    email: ''
+    phone: ''
+    contact: ''
+    more: ''
 
 installer_ignore:
 - .git
