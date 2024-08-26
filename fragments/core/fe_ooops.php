@@ -9,20 +9,20 @@
 </head>
 <body>
     <?php
-    $name = "Website-Betreiber";
-    $email = "kontakt@website.de";
-    $phone = "+49 123 456789";
-    $adress = "Musterstraße 1, 12345 Musterstadt";
-    $more = "Mo-Fr: 9:00 - 18:00 Uhr";
+    $name = 'Website-Betreiber';
+    $email = 'kontakt@website.de';
+    $phone = '+49 123 456789';
+    $adress = 'Musterstraße 1, 12345 Musterstadt';
+    $more = 'Mo-Fr: 9:00 - 18:00 Uhr';
     ?>
     <div class="chat-container">
         <div class="header">
-            <span class="name"><?= $name; ?></span>
+            <span class="name"><?= $name ?></span>
             <span class="icons">
-                <a href="tel:<?= $phone; ?>">
+                <a href="tel:<?= $phone ?>">
                     <img src="<?= rex_url::assets('schwooops/phone-icon.svg') ?>" alt="Telefon">
                 </a>
-                <a href="mailto:<?= $email; ?>">
+                <a href="mailto:<?= $email ?>">
                     <img src="<?= rex_url::assets('schwooops/email-icon.svg') ?>" alt="E-Mail">
                 </a>
             </span>
@@ -38,10 +38,10 @@
         <div class="message operator">
             <div class="avatar"><img src="avatar-placeholder.png" alt="Avatar"></div>
             <p>Ja klar, hier sind unsere Kontaktdaten und more:</p>
-            <p>E-Mail: <?= $email; ?></p>
-            <p>Telefon: <?= $phone; ?></p>
-            <p>Adresse: <?= $adress; ?></p>
-            <p>Erreichbarkeitszeiten: <?= $more; ?></p>
+            <p>E-Mail: <?= $email ?></p>
+            <p>Telefon: <?= $phone ?></p>
+            <p>Adresse: <?= $adress ?></p>
+            <p>Erreichbarkeitszeiten: <?= $more ?></p>
         </div>
         <div class="feedback">
             <button>Vielen Dank!</button>
