@@ -2,12 +2,14 @@ schwooops_title = Schwooops
 schwooops_settings = Einstellungen für die Wartungsseite / Fehlerseite
 
 schwooops_settings_name_label = Website-Betreiber
+schwooops_settings_logo_label = Logo
 schwooops_settings_email_label = E-Mail-Adresse
 schwooops_settings_phone_label = Telefonnummer
 schwooops_settings_contact_label = Zusätzliche Kontaktdaten
 schwooops_settings_more_label = Weitere Informationen
 
 schwooops_settings_name_notice = Der Name des Website-Betreibers
+schwooops_settings_logo_notice = Das Logo des Website-Betreibers
 schwooops_settings_email_notice = Die allgemeine E-Mail-Adresse des Website-Betreibers
 schwooops_settings_phone_notice = Die allgemeine Telefonnummer des Website-Betreibers
 schwooops_settings_contact_notice = Zusätzliche Kontaktdaten, die auf der Wartungsseite / Fehlerseite angezeigt werden sollen

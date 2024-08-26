@@ -7,6 +7,10 @@ if (rex::getUser()->isAdmin()) {
     $field->setLabel($this->i18n('schwooops_settings_name_label'));
     $field->setNotice($this->i18n('schwooops_settings_name_notice'));
 
+    $field = $form->addMediaField('logo');
+    $field->setLabel($this->i18n('schwooops_settings_logo_label'));
+    $field->setNotice($this->i18n('schwooops_settings_logo_notice'));
+
     $field = $form->addTextField('email');
     $field->setLabel($this->i18n('schwooops_settings_email_label'));
     $field->setNotice($this->i18n('schwooops_settings_email_notice'));
