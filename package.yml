@@ -6,17 +6,16 @@ supportpage: https://github.com/alexplusde/schwooops
 
 requires:
     php:
-        version: '>8.1,<9'
-    redaxo: ^5.16
+        version: '>=8.1,<9'
+    redaxo: ^5.12.0
+
+conflicts:
     packages:
-        maintenance: "^3"
-
-
+        maintenance: '<3.0.0'
 
 page:
     title: translate:schwooops_title
     icon: rex-icon fa-bug
-    prio: 100
     hidden: true
 
 
@@ -31,7 +30,7 @@ pages:
 default_config:
     name: ''
     email: ''
-    phone: ''
+    phone: '+49'
     contact: ''
     more: ''
 
